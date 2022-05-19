@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-bottom: 10vw;
+}
+
+/* | COMPANY LOGO */
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  gap: 5px;
+  font-size: 2.185rem;
+}
+
+
+.company-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.company-aspen {
+  font-family: 'Patua One', cursive;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.company-homes::before {
+  content: "";
+  width: 15px;
+  height: 2px;
+  left: -20px;
+  top: 20px;
+  background: white;
+  position: absolute;
+}
+
+.company-homes {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.company-homes::after {
+  content: "";
+  width: 15px;
+  height: 2px;
+  right: -20px;
+  top: 20px;
+  background: white;
+  position: absolute;
+}
+
+
+/* | BUTTONS */
+
+.navegation-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.buttons a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.bttn-style {
+  display: flex;
+  color: #fff;
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 40px;
+  gap: 10px;
+}
+
+.buttom-contact {
+  border: 1px solid #fff;
+}
+
+.buttom-menu {
+  background: #996636;
+}

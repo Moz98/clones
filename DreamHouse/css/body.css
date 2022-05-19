@@ -1,0 +1,55 @@
+.main-content {
+  /* Provisorio */
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  justify-self: center;
+  align-self: center;
+  max-width: 600px;
+  padding: 0px;
+}
+
+
+
+.sub-slogan-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.slogan {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.slogan-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.options a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-content a {
+  color: #FFF;
+  background: #444236;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(249deg) brightness(106%) contrast(101%);
+}
