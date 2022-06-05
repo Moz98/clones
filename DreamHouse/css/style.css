@@ -37,6 +37,7 @@ img {
   margin: 0px;
   padding: 0px;
   display: block;
+  object-fit: cover;
 }
 
 ul,
@@ -51,5 +52,6 @@ ol {
   margin: 0px auto;
   background-image: url(https://cdn.onekindesign.com/wp-content/uploads/2021/02/Rustic-Mountain-House-The-Jarvis-Group-Architects-02-1-Kindesign.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   /* background-position: center; */
 }
